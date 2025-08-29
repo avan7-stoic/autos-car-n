@@ -1,0 +1,33 @@
+/* .hero {
+  height: 80vh;
+  background: linear-gradient(to right, #023e8a, #0077b6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero p {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.cta-btn {
+  background: #00b4d8;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta-btn:hover {
+  background: #0096c7;
+} */
