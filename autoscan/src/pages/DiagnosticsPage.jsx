@@ -3,6 +3,8 @@ import React from "react";
 
 function DiagnosticsPage() {
   return (
+     <>
+     <Navbar />
     <section className="diagnostics">
       <h2>Car Diagnostics</h2>
       <p>
@@ -26,6 +28,8 @@ function DiagnosticsPage() {
       </ul>
       <button className="cta-btn">Book Your Diagnostics Appointment</button>
     </section>
+    <Footer />
+    </>
   );
 }
 
