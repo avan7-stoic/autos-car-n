@@ -11,6 +11,8 @@ function Navbar() {
         <li><Link to="/home">Home</Link></li>
         <li><Link to="/diagnostics">Diagnostics</Link></li>
         <li><Link to="/contact">Contact</Link></li>
+        <Link to="/appointment" className="cta-btn">Book Appointment</Link>
+
       </ul>
     </nav>
   );
