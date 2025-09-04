@@ -1,10 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 //import "../styles/services.css";
+
 
 function DiagnosticsPage() {
   return (
      <>
-     <Navbar />
+     <Navbar/>
     <section className="diagnostics">
       <h2>Car Diagnostics</h2>
       <p>
@@ -26,9 +30,9 @@ function DiagnosticsPage() {
         <li>Airbags & ABS</li>
         <li>Emissions & Sensors</li>
       </ul>
-      <button className="cta-btn">Book Your Diagnostics Appointment</button>
+      <Link to = "/appointment" className='cta-btn'>BOOK YOUR DIAGNOSTICS APPOINTMENT</Link>
     </section>
-    <Footer />
+    <Footer/>
     </>
   );
 }

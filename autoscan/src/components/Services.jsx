@@ -1,9 +1,9 @@
 import React from "react";
 //import "../styles/global.css";
-import diagnosticsImg from "../assets/services/diagnostics.jpg";
-import engineImg from "../assets/services/engine.jpg";
-import brakesImg from "../assets/services/brakes.jpg";
-import oilImg from "../assets/services/oil.jpg";
+// import diagnosticsImg from "../assets/services/diagnostics.jpg";
+// import engineImg from "../assets/services/engine.jpg";
+// import brakesImg from "../assets/services/brakes.jpg";
+// import oilImg from "../assets/services/oil.jpg";
 
 function Services() {
   const services = [
